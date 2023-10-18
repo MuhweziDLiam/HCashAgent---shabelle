@@ -1,0 +1,46 @@
+const String baseUrl =
+    'https://dr-web.pivotpayts.com/pivot_pay_api/public/api/v1/';
+const String baseUrl2 =
+    'http://196.191.76.214:8082/HCashAgentApi/public/api/v1/';
+const String imgUrl = 'https://dr-web.pivotpayts.com/pivot_pay_api/public/';
+const String billsImgUrl =
+    'https://dr-web.pivotpayts.com/pivot_pay_api/public/images/';
+const String loginEndPoint = 'loginUser';
+const String googlePeopleAPI = 'https://people.googleapis.com/v1/people/me';
+const String checkDeviceIdEndPoint = 'checkDeviceId';
+const String beneficiariesEndPoint = 'getClientBeneficiaries';
+const String changePinEndPoint = 'changePin';
+const String getAppInfoEndPoint = 'appInfo';
+const String processUserPaymentEndPoint = 'processUserPayment';
+const String requestCashOutEndPoint = 'requestCashOut';
+const String processCashOutEndPoint = 'processAgentPointTransactions';
+const String processBillPaymentEndPoint = 'processBillPayment';
+const String processLoanRepaymentEndPoint = 'processLoanPayment';
+const String getTransactionStatusEndPoint = 'getTransactionStatus';
+const String validateWenrecoEndPoint = 'validateWenrecoAccount';
+const String validateBBBEndPoint = 'validateBodaBodaBanja';
+const String processWenrecoPaymentEndPoint = 'processWenrecoPayment';
+const String getWalletBalanceEndPoint = 'getAccountBalance';
+const String getAgentStatementEndPoint = 'getAgentStatment';
+const String convertCurrencyEndPoint = 'convertCurrency';
+const String authorizeTransactionEndPoint = 'authorizeWalletTransaction';
+const String validatePivotPayAccountEndPoint = 'validateAccount';
+const String getDisbursmentCountriesEndPoint = 'getDisbursmentCountries';
+const String getOnboardingCountriesEndPoint = 'getSmileIds';
+const String validatePhoneNumberEndPoint = 'validatePhoneNumber';
+const String getCountryDetailsEndPoint = 'getCountryDetails';
+const String checkMetaStatusEndPoint = 'checkMeta';
+const String getAMLRecordsEndPoint = 'getLimitDetails';
+const String validateBankAccountEndPoint = 'validateBankAccount';
+const String validateGenericBillEndPoint = 'validateBills';
+const String checkPhoneNumberEndPoint = 'checkPhoneNumberExists';
+const String checkUserNameEndPoint = 'checkUserNameExists';
+const String checkUserEndPoint = 'checkUserName';
+const String resetPinEndPoint = 'resetPin';
+const String sendOTPEndPoint = 'sendSMS';
+const String registerUserEndPoint = 'createUser';
+const String personFields =
+    '?personFields=genders,phoneNumbers,emailAddresses,photos,birthdays,names';
+const String vendorCode = 'TUMIA_APP';
+const String vendorPassword = 'EVJ7O9V6Q6';
+const String merchantSecret = 'CZKGZ9JO2T4VG4ODPMZF';

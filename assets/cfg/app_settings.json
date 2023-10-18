@@ -1,0 +1,331 @@
+{
+  "services": [
+    {
+      "serviceCode": "CASH_IN",
+      "serviceImg": "wallet_wallet.png",
+      "serviceDescription": "Send money to an HCash wallet account.",
+      "serviceName": "To HCash Wallet"
+    },
+    {
+      "serviceCode": "BANK_TRANSFERS",
+      "serviceImg": "wallet_bank.png",
+      "serviceDescription": "Send money to a Bank account.",
+      "serviceName": "To Bank Account"
+    }
+  ],
+  "transactingNetworks": [
+    {
+      "dailCode": "+256",
+      "countryCode": "UG",
+      "countryName": "Uganda",
+      "networks": [
+        {
+          "networkName": "Mtn Uganda",
+          "networkImg": "mtn.png"
+        },
+        {
+          "networkName": "Airtel Uganda",
+          "networkImg": "airtel.png"
+        }
+      ]
+    },
+    {
+      "dailCode": "+254",
+      "countryCode": "KE",
+      "countryName": "kenya",
+      "networks": [
+        {
+          "networkName": "Safaricom",
+          "networkImg": "safaricom.png"
+        }
+      ]
+    }
+  ],
+  "bills": [
+    {
+      "billerCode": "215",
+      "billerName": "Dstv",
+      "billerLogo": "dstv.png",
+      "billCategory": "2",
+      "hasPackages": true
+    },
+    {
+      "billerCode": "215",
+      "billerName": "Gotv",
+      "billerLogo": "gotv.png",
+      "billCategory": "2",
+      "hasPackages": true
+    },
+    {
+      "billerCode": "258",
+      "billerName": "Zuku",
+      "billerLogo": "zukutv.png",
+      "billCategory": "2",
+      "hasPackages": true
+    },
+    {
+      "billerCode": "213",
+      "billerName": "Startimes",
+      "billerLogo": "startimes.png",
+      "billCategory": "2",
+      "hasPackages": true
+    },
+    {
+      "billerCode": "433",
+      "billerName": "Azam",
+      "billCategory": "2",
+      "billerLogo": "azam.png",
+      "hasPackages": true
+    },
+    {
+      "billerCode": "2",
+      "billerName": "Netflix",
+      "billerLogo": "netflix.png",
+      "billCategory": "2",
+      "hasPackages": false
+    },
+    {
+      "billerCode": "249",
+      "billerName": "NWSC",
+      "billCategory": "1",
+      "billerLogo": "nwsc.png",
+      "hasPackages": false
+    },
+    {
+      "billerCode": "4372347",
+      "billerName": "Umeme Yaka",
+      "billerLogo": "yaka.png",
+      "billCategory": "3",
+      "hasPackages": false
+    },
+    {
+      "billerCode": "4372347",
+      "billerName": "Umeme Postpaid",
+      "billCategory": "3",
+      "billerLogo": "umeme.png",
+      "hasPackages": false
+    },
+    {
+      "billerCode": "1",
+      "billerName": "Wenreco",
+      "billerLogo": "wenreco.png",
+      "billCategory": "3",
+      "hasPackages": false
+    }
+  ],
+  "billCategories": [
+    {
+      "billId": "1",
+      "billName": "Water"
+    },
+    {
+      "billId": "3",
+      "billName": "Electricity"
+    },
+    {
+      "billId": "2",
+      "billName": "Pay Tv"
+    }
+  ],
+  "bankBillerCode": "190",
+  "schoolBillerCode": "1007",
+  "loanProviders": [
+    {
+      "providerName": "Boda Boda Banja",
+      "providerId": "1",
+      "selectedColor": "0xFF7DB828",
+      "providerLogo": "bodaboda.png"
+    },
+    {
+      "providerName": "Pivot School Fees Loan",
+      "providerId": "2",
+      "selectedColor": "0xFF7DB828",
+      "providerLogo": "school_pay.png"
+    }
+  ],
+  "travelProviders": [
+    {
+      "providerName": "Tawakal Travels",
+      "providerId": "767671",
+      "selectedColor": "0xFF0c75af",
+      "providerLogo": "tawakal"
+    },
+    {
+      "providerName": "Almisbaahu",
+      "providerId": "767670",
+      "selectedColor": "0xFF219f33",
+      "providerLogo": "almisbaahu"
+    },
+    {
+      "providerName": "Makkah Madinah",
+      "providerId": "767673",
+      "selectedColor": "0xFF72bf6a",
+      "providerLogo": "makkah"
+    }
+  ],
+  "packages": [
+    {
+      "providerId": "767671",
+      "packageName": "Economy",
+      "packagePrice": "USD. 1,900",
+      "packageColor": "0xffc0c0c0",
+      "packageDetails": [
+        "Flght Tickets",
+        "Visa Processing",
+        "Historical Sites Tour",
+        "Ground Public Transport",
+        "Economy Flight"
+      ],
+      "paymentPlans": [
+        "1 - 2 Months",
+        "2 - 4 Months",
+        "4 - 8 Months",
+        "8 - 12 Months",
+        "12 - 18 Months",
+        "18 - 24 Months"
+      ]
+    },
+    {
+      "providerId": "767671",
+      "packageName": "Business",
+      "packagePrice": "USD. 1,200",
+      "packageColor": "0xffcd7f32",
+      "packageDetails": [
+        "Flght Tickets",
+        "Ground Public Transport",
+        "Economy Flight"
+      ],
+      "paymentPlans": [
+        "1 - 2 Months",
+        "2 - 4 Months",
+        "4 - 8 Months",
+        "8 - 12 Months",
+        "12 - 18 Months",
+        "18 - 24 Months"
+      ]
+    },
+    {
+      "providerId": "767670",
+      "packageName": "Economy",
+      "packagePrice": "USD. 3,400",
+      "packageColor": "0xffc0c0c0",
+      "packageDetails": [
+        "Flght Tickets",
+        "Visa Processing",
+        "Historical Sites Tour",
+        "Ground Public Transport",
+        "Economy Flight"
+      ],
+      "paymentPlans": [
+        "1 - 2 Months",
+        "2 - 4 Months",
+        "4 - 8 Months",
+        "8 - 12 Months",
+        "12 - 18 Months",
+        "18 - 24 Months"
+      ]
+    },
+    {
+      "providerId": "767670",
+      "packageName": "Premium",
+      "packagePrice": "USD. 5,000",
+      "packageColor": "0xffd4af37",
+      "packageDetails": [
+        "Flght Tickets",
+        "Visa Processing",
+        "Historical Sites Tour",
+        "Ground Personal Transport",
+        "First Class Flight",
+        "5 Star Hotel Accomodation",
+        "Return Flight"
+      ],
+      "paymentPlans": [
+        "1 - 2 Months",
+        "2 - 4 Months",
+        "4 - 8 Months",
+        "8 - 12 Months",
+        "12 - 18 Months",
+        "18 - 24 Months"
+      ]
+    },
+    {
+      "providerId": "767670",
+      "packageName": "Business",
+      "packagePrice": "USD. 4,800",
+      "packageColor": "0xffcd7f32",
+      "packageDetails": [
+        "Flght Tickets",
+        "Ground Public Transport",
+        "Economy Flight"
+      ],
+      "paymentPlans": [
+        "1 - 2 Months",
+        "2 - 4 Months",
+        "4 - 8 Months",
+        "8 - 12 Months",
+        "12 - 18 Months",
+        "18 - 24 Months"
+      ]
+    },
+    {
+      "providerId": "767673",
+      "packageName": "Economy",
+      "packagePrice": "USD. 1,800",
+      "packageColor": "0xffc0c0c0",
+      "packageDetails": [
+        "Flght Tickets",
+        "Visa Processing",
+        "Historical Sites Tour",
+        "Ground Public Transport",
+        "Economy Flight"
+      ],
+      "paymentPlans": [
+        "1 - 2 Months",
+        "2 - 4 Months",
+        "4 - 8 Months",
+        "8 - 12 Months",
+        "12 - 18 Months",
+        "18 - 24 Months"
+      ]
+    },
+    {
+      "providerId": "767673",
+      "packageName": "Business",
+      "packagePrice": "USD. 2,200",
+      "packageColor": "0xffcd7f32",
+      "packageDetails": [
+        "Flght Tickets",
+        "Ground Public Transport",
+        "Economy Flight"
+      ],
+      "paymentPlans": [
+        "1 - 2 Months",
+        "2 - 4 Months",
+        "4 - 8 Months",
+        "8 - 12 Months",
+        "12 - 18 Months",
+        "18 - 24 Months"
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "id": "1",
+      "description": "Select a Hijja/Umurah service provider from the list provided.",
+      "image": "muslim.png",
+      "color": "0xFF0C2A4B"
+    },
+    {
+      "id": "2",
+      "description": "Choose a payment package that suits you and your budget.",
+      "image": "package_select.png",
+      "color": "0xff36454F"
+    },
+    {
+      "id": "3",
+      "description": "Accept the T&Cs, confirm your payment plan and start saving!",
+      "image": "subscribe.png",
+      "color": "0xFF7DB828"
+    }
+  ]
+}
